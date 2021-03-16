@@ -1,7 +1,7 @@
 {
     "id": "861f3209.08548",
     "type": "subflow",
-    "name": "気象庁API",
+    "name": "天気API",
     "info": "気象庁の天気予報APIにアクセスするノードです。\n\nノードプロパティ設定で「地域」を選択するのみで、指定した場所の天気を取得できます。",
     "category": "analysis",
     "in": [
@@ -398,7 +398,7 @@
         "type": "jma-weather",
         "version": "0.0.1",
         "author": "kazuhitoyokoi",
-        "desc": "気象庁の天気予報APIにアクセスするノードです。",
+        "desc": "天気予報APIにアクセスするノードです。",
         "keywords": "node-red,jma,weather",
         "license": "Apache-2.0"
     },
